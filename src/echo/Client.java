@@ -60,7 +60,7 @@ public class Client {
 			}
 			
 			//메세지 보내기
-			bw.write(msg);
+			bw.write("황일영:" + msg);
 			bw.newLine();
 			bw.flush();
 
